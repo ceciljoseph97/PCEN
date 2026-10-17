@@ -1,0 +1,74 @@
+{
+ "A4_front_off_hold": {
+  "raw_global": {
+   "auc": 0.4725,
+   "n": 20
+  },
+  "raw_clutmap": {
+   "auc": 0.45,
+   "n": 20
+  },
+  "raw_pcen1": {
+   "auc": 0.4525,
+   "n": 20
+  },
+  "raw_cpcen": {
+   "auc": 0.4525,
+   "n": 20
+  }
+ },
+ "B6_front_on_hold": {
+  "raw_global": {
+   "auc": 0.54,
+   "n": 20
+  },
+  "raw_clutmap": {
+   "auc": 0.4275,
+   "n": 20
+  },
+  "raw_pcen1": {
+   "auc": 0.445,
+   "n": 20
+  },
+  "raw_cpcen": {
+   "auc": 0.445,
+   "n": 20
+  }
+ },
+ "C12_near_on_hold": {
+  "raw_global": {
+   "auc": 0.4975,
+   "n": 20
+  },
+  "raw_clutmap": {
+   "auc": 0.36,
+   "n": 20
+  },
+  "raw_pcen1": {
+   "auc": 0.355,
+   "n": 20
+  },
+  "raw_cpcen": {
+   "auc": 0.355,
+   "n": 20
+  }
+ },
+ "D14_near_off_hold": {
+  "raw_global": {
+   "auc": 0.4075,
+   "n": 20
+  },
+  "raw_clutmap": {
+   "auc": 0.465,
+   "n": 20
+  },
+  "raw_pcen1": {
+   "auc": 0.4625,
+   "n": 20
+  },
+  "raw_cpcen": {
+   "auc": 0.4625,
+   "n": 20
+  }
+ }
+}

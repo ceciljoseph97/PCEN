@@ -1,0 +1,193 @@
+{
+ "_params": {
+  "target_points_per_frame_calibration": 0.1,
+  "frame_period_s": 0.019827102025349933,
+  "hand_gate_m": [
+   0.15,
+   0.6
+  ],
+  "background_from_m": 0.75,
+  "thresholds": {
+   "ca_cfar": 218.79544067382812,
+   "global": 19032.3203125,
+   "clutter_map": 78.22261047363281,
+   "pcen": 4.499044418334961,
+   "cpcen": 15.842336654663086,
+   "pcen_ca": 11.769491195678711
+  },
+  "ref_power": 7.746562187094241e-05,
+  "calibration": [
+   "GM_n_1_1_N_L_0_M_1070",
+   "GM_n_1_1_N_L_0_M_1071",
+   "GM_n_1_1_N_L_0_M_1072",
+   "GM_n_1_1_N_L_0_M_1073",
+   "GM_n_1_1_N_L_0_M_1074",
+   "GM_n_1_1_N_L_0_M_1075"
+  ],
+  "test": [
+   "GM_0_4v1_1_N_R_0_M_2335",
+   "GM_0_4v1_1_N_R_0_M_2336",
+   "GM_0_4v1_1_N_R_0_M_2337",
+   "GM_0_7v1_1_N_R_0_M_2409",
+   "GM_0_7v1_1_N_R_0_M_2410",
+   "GM_0_7v1_1_N_R_0_M_2411",
+   "GM_1_4v1_1_N_R_0_M_2348",
+   "GM_1_4v1_1_N_R_0_M_2349",
+   "GM_1_4v1_1_N_R_0_M_2350",
+   "GM_1_7v1_1_N_R_0_M_2415",
+   "GM_1_7v1_1_N_R_0_M_2416",
+   "GM_1_7v1_1_N_R_0_M_2417",
+   "GM_2_4v1_1_N_R_0_M_2360",
+   "GM_2_4v1_1_N_R_0_M_2361",
+   "GM_2_4v1_1_N_R_0_M_2362",
+   "GM_2_7v1_1_N_R_0_M_2421",
+   "GM_2_7v1_1_N_R_0_M_2422",
+   "GM_2_7v1_1_N_R_0_M_2423",
+   "GM_3_4v1_1_N_R_0_M_2372",
+   "GM_3_4v1_1_N_R_0_M_2373",
+   "GM_3_4v1_1_N_R_0_M_2374",
+   "GM_3_7v1_1_N_R_0_M_2427",
+   "GM_3_7v1_1_N_R_0_M_2428",
+   "GM_3_7v1_1_N_R_0_M_2429",
+   "GM_4_4v1_1_N_R_0_M_2384",
+   "GM_4_4v1_1_N_R_0_M_2385",
+   "GM_4_7v1_1_N_R_0_M_2433",
+   "GM_4_7v1_1_N_R_0_M_2434",
+   "GM_4_7v1_1_N_R_0_M_2435",
+   "GM_n_4v1_1_N_R_0_M_2396",
+   "GM_n_4v1_1_N_R_0_M_2397",
+   "GM_n_4v1_1_N_R_0_M_2398",
+   "GM_n_7v1_1_N_R_0_M_2439",
+   "GM_n_7v1_1_N_R_0_M_2440",
+   "GM_n_7v1_1_N_R_0_M_2441"
+  ]
+ },
+ "metrics": {
+  "published": {
+   "4v1": {
+    "hand_points_per_frame": 2.4386879215205397,
+    "frames_with_hand_point": 0.5361741263028816,
+    "background_points_per_frame": 0.44849785407725323,
+    "no_gesture_points_per_frame": 1.854077253218884,
+    "trail_lateral_spread_m": 0.03524112142622471,
+    "trail_vertical_spread_m": 0.025869020260870457
+   },
+   "7v1": {
+    "hand_points_per_frame": 2.384549356223176,
+    "frames_with_hand_point": 0.5364806866952789,
+    "background_points_per_frame": 0.044062947067238914,
+    "no_gesture_points_per_frame": 1.4592274678111588,
+    "trail_lateral_spread_m": 0.03926611691713333,
+    "trail_vertical_spread_m": 0.028111131861805916
+   }
+  },
+  "ca_cfar": {
+   "4v1": {
+    "hand_points_per_frame": 0.28908645003065603,
+    "frames_with_hand_point": 0.16738197424892703,
+    "background_points_per_frame": 0.05548743102391171,
+    "no_gesture_points_per_frame": 0.17310443490701002,
+    "trail_lateral_spread_m": 0.02147204801440239,
+    "trail_vertical_spread_m": 0.018302997574210167
+   },
+   "7v1": {
+    "hand_points_per_frame": 0.2646638054363376,
+    "frames_with_hand_point": 0.15879828326180256,
+    "background_points_per_frame": 0.007725321888412017,
+    "no_gesture_points_per_frame": 0.2017167381974249,
+    "trail_lateral_spread_m": 0.026908649131655693,
+    "trail_vertical_spread_m": 0.01871388591825962
+   }
+  },
+  "global": {
+   "4v1": {
+    "hand_points_per_frame": 0.6213979153893316,
+    "frames_with_hand_point": 0.12844880441446965,
+    "background_points_per_frame": 0.014101778050275904,
+    "no_gesture_points_per_frame": 0.38912732474964234,
+    "trail_lateral_spread_m": 0.02564909588545561,
+    "trail_vertical_spread_m": 0.017118122428655624
+   },
+   "7v1": {
+    "hand_points_per_frame": 0.621173104434907,
+    "frames_with_hand_point": 0.12675250357653792,
+    "background_points_per_frame": 0.0,
+    "no_gesture_points_per_frame": 0.4291845493562232,
+    "trail_lateral_spread_m": 0.021348005160689354,
+    "trail_vertical_spread_m": 0.016966061666607857
+   }
+  },
+  "clutter_map": {
+   "4v1": {
+    "hand_points_per_frame": 0.6900674432863274,
+    "frames_with_hand_point": 0.08369098712446352,
+    "background_points_per_frame": 0.10055180870631514,
+    "no_gesture_points_per_frame": 0.2474964234620887,
+    "trail_lateral_spread_m": 0.02707735076546669,
+    "trail_vertical_spread_m": 0.020280731841921806
+   },
+   "7v1": {
+    "hand_points_per_frame": 0.46924177396280403,
+    "frames_with_hand_point": 0.055793991416309016,
+    "background_points_per_frame": 0.006294706723891273,
+    "no_gesture_points_per_frame": 0.8483547925608012,
+    "trail_lateral_spread_m": 0.030268427915871143,
+    "trail_vertical_spread_m": 0.027384438551962376
+   }
+  },
+  "pcen": {
+   "4v1": {
+    "hand_points_per_frame": 0.7152053954629062,
+    "frames_with_hand_point": 0.08706315144083385,
+    "background_points_per_frame": 0.10147148988350706,
+    "no_gesture_points_per_frame": 0.25608011444921314,
+    "trail_lateral_spread_m": 0.02673766389489174,
+    "trail_vertical_spread_m": 0.019664064049720764
+   },
+   "7v1": {
+    "hand_points_per_frame": 0.48783977110157367,
+    "frames_with_hand_point": 0.05665236051502146,
+    "background_points_per_frame": 0.005722460658082976,
+    "no_gesture_points_per_frame": 0.8483547925608012,
+    "trail_lateral_spread_m": 0.029682841151952744,
+    "trail_vertical_spread_m": 0.02723735198378563
+   }
+  },
+  "cpcen": {
+   "4v1": {
+    "hand_points_per_frame": 2.4610668301655427,
+    "frames_with_hand_point": 0.28448804414469653,
+    "background_points_per_frame": 0.09625996321275292,
+    "no_gesture_points_per_frame": 1.738197424892704,
+    "trail_lateral_spread_m": 0.028386328369379044,
+    "trail_vertical_spread_m": 0.022641511633992195
+   },
+   "7v1": {
+    "hand_points_per_frame": 2.3012875536480686,
+    "frames_with_hand_point": 0.1982832618025751,
+    "background_points_per_frame": 0.0022889842632331904,
+    "no_gesture_points_per_frame": 3.7982832618025753,
+    "trail_lateral_spread_m": 0.027051654644310474,
+    "trail_vertical_spread_m": 0.023326752707362175
+   }
+  },
+  "pcen_ca": {
+   "4v1": {
+    "hand_points_per_frame": 0.43408951563458004,
+    "frames_with_hand_point": 0.12599632127529123,
+    "background_points_per_frame": 0.012262415695892091,
+    "no_gesture_points_per_frame": 0.12875536480686695,
+    "trail_lateral_spread_m": 0.02371553983539343,
+    "trail_vertical_spread_m": 0.017816939391195774
+   },
+   "7v1": {
+    "hand_points_per_frame": 0.3021459227467811,
+    "frames_with_hand_point": 0.09241773962804006,
+    "background_points_per_frame": 0.014592274678111588,
+    "no_gesture_points_per_frame": 0.474964234620887,
+    "trail_lateral_spread_m": 0.0279559176415205,
+    "trail_vertical_spread_m": 0.016856560483574867
+   }
+  }
+ }
+}

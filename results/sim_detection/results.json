@@ -1,0 +1,159 @@
+{
+  "Raw (global thr)": {
+    "pd_at_1e-2": 0.0,
+    "pd_at_1e-3": 0.0,
+    "pd_at_1e-4": 0.0,
+    "regional_pfa": {
+      "zero-Doppler": 0.014440271315656707,
+      "near-range": 0.0,
+      "far-range": 0.0,
+      "mid (moving)": 0.0
+    },
+    "pfa_excess_db": 11.59575353191072,
+    "ms_per_frame": 3.050000003668174e-06,
+    "pd_moving_frames": 0.12,
+    "pd_static_frames": 0.0
+  },
+  "Static removal (global)": {
+    "pd_at_1e-2": 1.0,
+    "pd_at_1e-3": 0.29,
+    "pd_at_1e-4": 0.04,
+    "regional_pfa": {
+      "zero-Doppler": 0.00024665059700655867,
+      "near-range": 0.0,
+      "far-range": 0.0,
+      "mid (moving)": 0.002591813880739711
+    },
+    "pfa_excess_db": 4.1360381144628375,
+    "ms_per_frame": 3.152499914449436e-06,
+    "pd_moving_frames": 0.295,
+    "pd_static_frames": 0.0
+  },
+  "Static removal + CA-CFAR": {
+    "pd_at_1e-2": 0.93,
+    "pd_at_1e-3": 0.7,
+    "pd_at_1e-4": 0.525,
+    "regional_pfa": {
+      "zero-Doppler": 6.726834463815236e-05,
+      "near-range": 0.0037417763157894736,
+      "far-range": 0.0,
+      "mid (moving)": 0.00150677331455326
+    },
+    "pfa_excess_db": 5.730778217203962,
+    "ms_per_frame": 2.8658515450000266,
+    "pd_moving_frames": 0.71,
+    "pd_static_frames": 0.72
+  },
+  "Static removal + OS-CFAR": {
+    "pd_at_1e-2": 0.795,
+    "pd_at_1e-3": 0.655,
+    "pd_at_1e-4": 0.55,
+    "regional_pfa": {
+      "zero-Doppler": 0.0006278378832894221,
+      "near-range": 0.0,
+      "far-range": 0.0,
+      "mid (moving)": 0.0025222075047956747
+    },
+    "pfa_excess_db": 4.017808135933541,
+    "ms_per_frame": 19.113924414999985,
+    "pd_moving_frames": 0.66,
+    "pd_static_frames": 0.0
+  },
+  "Clutter-map CFAR": {
+    "pd_at_1e-2": 1.0,
+    "pd_at_1e-3": 0.805,
+    "pd_at_1e-4": 0.005,
+    "regional_pfa": {
+      "zero-Doppler": 0.0009866023880262347,
+      "near-range": 0.0006373355263157895,
+      "far-range": 0.0,
+      "mid (moving)": 0.002266301710883776
+    },
+    "pfa_excess_db": 3.5531772664367036,
+    "ms_per_frame": 0.02962440749996631,
+    "pd_moving_frames": 0.815,
+    "pd_static_frames": 0.01
+  },
+  "PCEN (raw)": {
+    "pd_at_1e-2": 1.0,
+    "pd_at_1e-3": 0.785,
+    "pd_at_1e-4": 0.01,
+    "regional_pfa": {
+      "zero-Doppler": 0.0010314479511183362,
+      "near-range": 0.000424890350877193,
+      "far-range": 0.0,
+      "mid (moving)": 0.0023215773623687457
+    },
+    "pfa_excess_db": 3.657831603218353,
+    "ms_per_frame": 0.21225546249993954,
+    "pd_moving_frames": 0.8,
+    "pd_static_frames": 0.01
+  },
+  "Static removal + PCEN": {
+    "pd_at_1e-2": 1.0,
+    "pd_at_1e-3": 0.805,
+    "pd_at_1e-4": 0.01,
+    "regional_pfa": {
+      "zero-Doppler": 0.0011323504680755647,
+      "near-range": 0.00045230263157894736,
+      "far-range": 0.0,
+      "mid (moving)": 0.0022949631598019084
+    },
+    "pfa_excess_db": 3.607757183599207,
+    "ms_per_frame": 0.20094649499995398,
+    "pd_moving_frames": 0.85,
+    "pd_static_frames": 0.0
+  },
+  "Static removal + PCEN + CA-CFAR": {
+    "pd_at_1e-2": 1.0,
+    "pd_at_1e-3": 0.975,
+    "pd_at_1e-4": 0.405,
+    "regional_pfa": {
+      "zero-Doppler": 0.002567408487022815,
+      "near-range": 0.0005962171052631579,
+      "far-range": 1.77292390610595e-06,
+      "mid (moving)": 0.00198787620710763
+    },
+    "pfa_excess_db": 4.094949725071667,
+    "ms_per_frame": 2.784533720000013,
+    "pd_moving_frames": 0.985,
+    "pd_static_frames": 0.05
+  },
+  "_params": {
+    "recordings": [],
+    "sim": true,
+    "seed": 0,
+    "out": "results/sim_detection",
+    "pfa": 0.001,
+    "warmup": 20,
+    "guard_r": 2,
+    "guard_d": 2,
+    "train_r": 8,
+    "train_d": 4,
+    "os_k": 0.75,
+    "tau": 1.0,
+    "alpha": 0.98,
+    "delta": 2.0,
+    "r": 0.5,
+    "tol_m": 0.15,
+    "guard_m": 0.3,
+    "frame_period": 0.05,
+    "tag": "sim",
+    "config": {
+      "start_frequency_Hz": 59500000000.0,
+      "end_frequency_Hz": 61500000000.0,
+      "num_samples": 128,
+      "sample_rate_Hz": 1000000.0,
+      "num_chirps": 64,
+      "chirp_repetition_time_s": 0.00039155,
+      "frame_repetition_time_s": 0.05,
+      "rx_mask": 7,
+      "tx_mask": 1,
+      "tx_power_level": 31,
+      "if_gain_dB": 33,
+      "lp_cutoff_Hz": 500000,
+      "hp_cutoff_Hz": 80000,
+      "extra": {}
+    }
+  }
+}

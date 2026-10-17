@@ -1,0 +1,319 @@
+{
+ "_params": {
+  "target_false_points_per_frame": 0.1,
+  "frame_period_s": 0.04843370000162395,
+  "warmup_s": 2.0,
+  "range_bin_m": 0.03747405725,
+  "thresholds": {
+   "ca_cfar": 44.33973693847656,
+   "global": 3395.44091796875,
+   "clutter_map": 20.639970779418945,
+   "pcen": 2.2443323135375977,
+   "cpcen": 2.444845199584961,
+   "pcen_ca": 4.881412506103516
+  },
+  "ref_power": 3.029790605069138e-05,
+  "chain": "re-implementation of rsazid99/inf_radarpoint, see pcen_radar/pointcloud.py"
+ },
+ "elevation_deg": {
+  "hand_side_fan_off_median": 7.446554832224811,
+  "fan_empty_median": 19.302467346191406,
+  "split": 13.374511444485197
+ },
+ "metrics": {
+  "published": {
+   "front_off_empty_points_per_frame": 0.0,
+   "front_off_empty_fan_gate_points_per_frame": 0.0,
+   "front_off_gest": {
+    "Pd_window": 0.0,
+    "FA_window": 0.0,
+    "trail_points_per_gesture": 0.0,
+    "hand_side_share": null,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "front_on_empty_points_per_frame": 0.0,
+   "front_on_empty_fan_gate_points_per_frame": 0.0,
+   "front_on_gest": {
+    "Pd_window": 0.0,
+    "FA_window": 0.0,
+    "trail_points_per_gesture": 0.0,
+    "hand_side_share": null,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_gest": {
+    "Pd_window": 0.0,
+    "FA_window": 0.0,
+    "trail_points_per_gesture": 0.0,
+    "hand_side_share": null,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_empty_points_per_frame": 0.0,
+   "side_on_empty_fan_gate_points_per_frame": 0.0,
+   "side_off_empty_points_per_frame": 0.0,
+   "side_off_empty_fan_gate_points_per_frame": 0.0,
+   "side_off_gest": {
+    "Pd_window": 0.0,
+    "FA_window": 0.0,
+    "trail_points_per_gesture": 0.0,
+    "hand_side_share": null,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   }
+  },
+  "ca_cfar": {
+   "front_off_empty_points_per_frame": 0.1744186046511628,
+   "front_off_empty_fan_gate_points_per_frame": 0.0,
+   "front_off_gest": {
+    "Pd_window": 0.8166666666666667,
+    "FA_window": 0.5714285714285714,
+    "trail_points_per_gesture": 6.616666666666666,
+    "hand_side_share": 0.7581863979848866,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "front_on_empty_points_per_frame": 0.015116279069767442,
+   "front_on_empty_fan_gate_points_per_frame": 0.0,
+   "front_on_gest": {
+    "Pd_window": 0.6833333333333333,
+    "FA_window": 0.25396825396825395,
+    "trail_points_per_gesture": 4.466666666666667,
+    "hand_side_share": 0.4141791044776119,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_gest": {
+    "Pd_window": 0.2,
+    "FA_window": 0.047619047619047616,
+    "trail_points_per_gesture": 0.35,
+    "hand_side_share": 0.6190476190476191,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_empty_points_per_frame": 0.0,
+   "side_on_empty_fan_gate_points_per_frame": 0.0,
+   "side_off_empty_points_per_frame": 0.02441860465116279,
+   "side_off_empty_fan_gate_points_per_frame": 0.0011627906976744186,
+   "side_off_gest": {
+    "Pd_window": 0.9,
+    "FA_window": 0.5873015873015873,
+    "trail_points_per_gesture": 3.7666666666666666,
+    "hand_side_share": 0.6592920353982301,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   }
+  },
+  "global": {
+   "front_off_empty_points_per_frame": 0.1930232558139535,
+   "front_off_empty_fan_gate_points_per_frame": 0.0,
+   "front_off_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 0.5873015873015873,
+    "trail_points_per_gesture": 497.5,
+    "hand_side_share": 0.8063651591289782,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "front_on_empty_points_per_frame": 0.09302325581395349,
+   "front_on_empty_fan_gate_points_per_frame": 0.0069767441860465115,
+   "front_on_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 0.8571428571428571,
+    "trail_points_per_gesture": 563.3166666666667,
+    "hand_side_share": 0.8094914050711559,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 1.0,
+    "trail_points_per_gesture": 323.6,
+    "hand_side_share": 0.4197569015245159,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_empty_points_per_frame": 11.022093023255813,
+   "side_on_empty_fan_gate_points_per_frame": 9.847674418604651,
+   "side_off_empty_points_per_frame": 0.005813953488372093,
+   "side_off_empty_fan_gate_points_per_frame": 0.0011627906976744186,
+   "side_off_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 0.42857142857142855,
+    "trail_points_per_gesture": 187.31666666666666,
+    "hand_side_share": 0.6710561437850343,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   }
+  },
+  "clutter_map": {
+   "front_off_empty_points_per_frame": 0.16279069767441862,
+   "front_off_empty_fan_gate_points_per_frame": 0.02441860465116279,
+   "front_off_gest": {
+    "Pd_window": 0.9833333333333333,
+    "FA_window": 0.07936507936507936,
+    "trail_points_per_gesture": 75.86666666666666,
+    "hand_side_share": 0.7620826010544816,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "front_on_empty_points_per_frame": 0.0,
+   "front_on_empty_fan_gate_points_per_frame": 0.0,
+   "front_on_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 0.031746031746031744,
+    "trail_points_per_gesture": 70.88333333333334,
+    "hand_side_share": 0.7310134023042558,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_gest": {
+    "Pd_window": 0.9666666666666667,
+    "FA_window": 0.09523809523809523,
+    "trail_points_per_gesture": 29.016666666666666,
+    "hand_side_share": 0.7742676622630672,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_empty_points_per_frame": 0.0,
+   "side_on_empty_fan_gate_points_per_frame": 0.0,
+   "side_off_empty_points_per_frame": 0.03604651162790698,
+   "side_off_empty_fan_gate_points_per_frame": 0.002325581395348837,
+   "side_off_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 0.07936507936507936,
+    "trail_points_per_gesture": 161.05,
+    "hand_side_share": 0.7586670806167857,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   }
+  },
+  "pcen": {
+   "front_off_empty_points_per_frame": 0.16395348837209303,
+   "front_off_empty_fan_gate_points_per_frame": 0.022093023255813953,
+   "front_off_gest": {
+    "Pd_window": 0.9833333333333333,
+    "FA_window": 0.07936507936507936,
+    "trail_points_per_gesture": 87.58333333333333,
+    "hand_side_share": 0.7628924833491912,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "front_on_empty_points_per_frame": 0.0,
+   "front_on_empty_fan_gate_points_per_frame": 0.0,
+   "front_on_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 0.031746031746031744,
+    "trail_points_per_gesture": 82.41666666666667,
+    "hand_side_share": 0.7284125379170879,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_gest": {
+    "Pd_window": 0.9666666666666667,
+    "FA_window": 0.09523809523809523,
+    "trail_points_per_gesture": 34.333333333333336,
+    "hand_side_share": 0.7689320388349514,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_empty_points_per_frame": 0.0011627906976744186,
+   "side_on_empty_fan_gate_points_per_frame": 0.0,
+   "side_off_empty_points_per_frame": 0.03488372093023256,
+   "side_off_empty_fan_gate_points_per_frame": 0.002325581395348837,
+   "side_off_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 0.07936507936507936,
+    "trail_points_per_gesture": 172.11666666666667,
+    "hand_side_share": 0.757819308608502,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   }
+  },
+  "cpcen": {
+   "front_off_empty_points_per_frame": 0.17093023255813952,
+   "front_off_empty_fan_gate_points_per_frame": 0.03604651162790698,
+   "front_off_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 0.7777777777777778,
+    "trail_points_per_gesture": 1019.55,
+    "hand_side_share": 0.8170598139702157,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "front_on_empty_points_per_frame": 0.0011627906976744186,
+   "front_on_empty_fan_gate_points_per_frame": 0.0,
+   "front_on_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 0.4444444444444444,
+    "trail_points_per_gesture": 315.35,
+    "hand_side_share": 0.7632788964642461,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_gest": {
+    "Pd_window": 0.95,
+    "FA_window": 0.1111111111111111,
+    "trail_points_per_gesture": 38.68333333333333,
+    "hand_side_share": 0.7716501507970702,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_empty_points_per_frame": 0.0,
+   "side_on_empty_fan_gate_points_per_frame": 0.0,
+   "side_off_empty_points_per_frame": 0.027906976744186046,
+   "side_off_empty_fan_gate_points_per_frame": 0.0011627906976744186,
+   "side_off_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 0.6031746031746031,
+    "trail_points_per_gesture": 1090.7833333333333,
+    "hand_side_share": 0.7943374027839321,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   }
+  },
+  "pcen_ca": {
+   "front_off_empty_points_per_frame": 0.09534883720930233,
+   "front_off_empty_fan_gate_points_per_frame": 0.012790697674418604,
+   "front_off_gest": {
+    "Pd_window": 0.9666666666666667,
+    "FA_window": 0.7777777777777778,
+    "trail_points_per_gesture": 34.233333333333334,
+    "hand_side_share": 0.7336903602726388,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "front_on_empty_points_per_frame": 0.03488372093023256,
+   "front_on_empty_fan_gate_points_per_frame": 0.0,
+   "front_on_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 0.7301587301587301,
+    "trail_points_per_gesture": 36.083333333333336,
+    "hand_side_share": 0.7228637413394919,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_gest": {
+    "Pd_window": 0.9833333333333333,
+    "FA_window": 0.47619047619047616,
+    "trail_points_per_gesture": 26.083333333333332,
+    "hand_side_share": 0.7476038338658147,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   },
+   "side_on_empty_points_per_frame": 0.022093023255813953,
+   "side_on_empty_fan_gate_points_per_frame": 0.0011627906976744186,
+   "side_off_empty_points_per_frame": 0.10348837209302325,
+   "side_off_empty_fan_gate_points_per_frame": 0.004651162790697674,
+   "side_off_gest": {
+    "Pd_window": 1.0,
+    "FA_window": 0.9523809523809523,
+    "trail_points_per_gesture": 52.13333333333333,
+    "hand_side_share": 0.7320971867007673,
+    "n_gesture_windows": 60,
+    "n_rest_windows": 63
+   }
+  }
+ }
+}

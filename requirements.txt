@@ -1,0 +1,5 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+torch>=2.1          # only for scripts/train_classifier.py
+# ifxradarsdk       # Infineon Radar SDK wheel, install from the SDK download (not on PyPI)

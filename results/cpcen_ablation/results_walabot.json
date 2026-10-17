@@ -1,0 +1,177 @@
+{
+ "_params": {
+  "base": {
+   "hold": 600.0,
+   "kappa": 6.0,
+   "tf": 0.5
+  },
+  "holds": [
+   "1.0",
+   "2.0",
+   "5.0",
+   "15.0",
+   "30.0",
+   "60.0",
+   "120.0",
+   "300.0",
+   "600.0",
+   "inf"
+  ],
+  "kappas": [
+   3.0,
+   6.0,
+   10.0
+  ],
+  "tau_fast": [
+   0.25,
+   0.5,
+   1.0,
+   2.0
+  ],
+  "note": "post hoc ablation, one factor at a time"
+ },
+ "W_walabot": {
+  "SR": {
+   "cfar_scale_db": 6.0,
+   "det_rate": 0.5215702310365978,
+   "fpw": 0.0885264997087944,
+   "rr_success_within10pct": 0.3079124923328563,
+   "rr_mae_detected_bpm": 3.3996778734329163,
+   "n_person_windows": 4891
+  },
+  "PCEN tau=10s": {
+   "cfar_scale_db": 2.5,
+   "det_rate": 0.016561030464117766,
+   "fpw": 0.05765870704717531,
+   "rr_success_within10pct": 0.01001840114496013,
+   "rr_mae_detected_bpm": 3.6343458931617234,
+   "n_person_windows": 4891
+  },
+  "hold=1": {
+   "cfar_scale_db": 2.5,
+   "det_rate": 0.01758331629523615,
+   "fpw": 0.05765870704717531,
+   "rr_success_within10pct": 0.009813943978736455,
+   "rr_mae_detected_bpm": 4.050017737363755,
+   "n_person_windows": 4891
+  },
+  "hold=2": {
+   "cfar_scale_db": 2.5,
+   "det_rate": 0.01962788795747291,
+   "fpw": 0.05824111822947001,
+   "rr_success_within10pct": 0.010836229809854835,
+   "rr_mae_detected_bpm": 4.3544898937785925,
+   "n_person_windows": 4891
+  },
+  "hold=5": {
+   "cfar_scale_db": 2.5,
+   "det_rate": 0.03005520343488039,
+   "fpw": 0.060570762958648806,
+   "rr_success_within10pct": 0.014107544469433653,
+   "rr_mae_detected_bpm": 4.676418040403692,
+   "n_person_windows": 4891
+  },
+  "hold=15": {
+   "cfar_scale_db": 3.0,
+   "det_rate": 0.031077489265998775,
+   "fpw": 0.0891089108910891,
+   "rr_success_within10pct": 0.014925373134328358,
+   "rr_mae_detected_bpm": 4.784040155470943,
+   "n_person_windows": 4891
+  },
+  "hold=30": {
+   "cfar_scale_db": 4.0,
+   "det_rate": 0.05520343488039256,
+   "fpw": 0.09959231217239371,
+   "rr_success_within10pct": 0.026170517276630546,
+   "rr_mae_detected_bpm": 4.542009538857212,
+   "n_person_windows": 4891
+  },
+  "hold=60": {
+   "cfar_scale_db": 5.5,
+   "det_rate": 0.12226538540175833,
+   "fpw": 0.07454863133372161,
+   "rr_success_within10pct": 0.06726640768758944,
+   "rr_mae_detected_bpm": 4.177965645576274,
+   "n_person_windows": 4891
+  },
+  "hold=120": {
+   "cfar_scale_db": 6.0,
+   "det_rate": 0.31997546514005315,
+   "fpw": 0.093185789167152,
+   "rr_success_within10pct": 0.18544264976487426,
+   "rr_mae_detected_bpm": 3.5301334566087403,
+   "n_person_windows": 4891
+  },
+  "hold=300": {
+   "cfar_scale_db": 5.5,
+   "det_rate": 0.42997342056839094,
+   "fpw": 0.081537565521258,
+   "rr_success_within10pct": 0.24923328562666122,
+   "rr_mae_detected_bpm": 3.5980041301509273,
+   "n_person_windows": 4891
+  },
+  "hold=600": {
+   "cfar_scale_db": 5.5,
+   "det_rate": 0.42997342056839094,
+   "fpw": 0.081537565521258,
+   "rr_success_within10pct": 0.24923328562666122,
+   "rr_mae_detected_bpm": 3.5980041301509273,
+   "n_person_windows": 4891
+  },
+  "hold=inf": {
+   "cfar_scale_db": 5.5,
+   "det_rate": 0.42997342056839094,
+   "fpw": 0.081537565521258,
+   "rr_success_within10pct": 0.24923328562666122,
+   "rr_mae_detected_bpm": 3.5980041301509273,
+   "n_person_windows": 4891
+  },
+  "kappa=3": {
+   "cfar_scale_db": 5.0,
+   "det_rate": 0.4422408505418115,
+   "fpw": 0.064065230052417,
+   "rr_success_within10pct": 0.26231854426497647,
+   "rr_mae_detected_bpm": 3.5046280172452926,
+   "n_person_windows": 4891
+  },
+  "kappa=10": {
+   "cfar_scale_db": 7.0,
+   "det_rate": 0.38887753015743204,
+   "fpw": 0.07513104251601631,
+   "rr_success_within10pct": 0.22919648333674095,
+   "rr_mae_detected_bpm": 3.4787445060373035,
+   "n_person_windows": 4891
+  },
+  "tau_fast=0.25": {
+   "cfar_scale_db": 5.5,
+   "det_rate": 0.44346759353915355,
+   "fpw": 0.0716365754222481,
+   "rr_success_within10pct": 0.2553670006133715,
+   "rr_mae_detected_bpm": 3.624965558009895,
+   "n_person_windows": 4891
+  },
+  "tau_fast=1": {
+   "cfar_scale_db": 5.5,
+   "det_rate": 0.4281333060723778,
+   "fpw": 0.0896913220733838,
+   "rr_success_within10pct": 0.2508689429564506,
+   "rr_mae_detected_bpm": 3.558898068190315,
+   "n_person_windows": 4891
+  },
+  "tau_fast=2": {
+   "cfar_scale_db": 6.0,
+   "det_rate": 0.4164792475976283,
+   "fpw": 0.09668025626092021,
+   "rr_success_within10pct": 0.23880597014925373,
+   "rr_mae_detected_bpm": 3.612720683369242,
+   "n_person_windows": 4891
+  },
+  "oracle (reference range)": {
+   "rr_success_within10pct": 0.5790226947454509,
+   "rr_mae_detected_bpm": 3.5267522078109037,
+   "det_rate": 1.0,
+   "n_person_windows": 4891
+  }
+ }
+}
